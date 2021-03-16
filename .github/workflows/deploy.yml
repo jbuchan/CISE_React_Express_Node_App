@@ -1,5 +1,6 @@
 name: deploy to heroku
-on: merge
+on: 
+merge:
   branches: [master]
 
 jobs:
