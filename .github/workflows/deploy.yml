@@ -1,6 +1,6 @@
 name: deploy to heroku
 on: 
-  merge:
+  pull_request:
     branches: [master]
 
 jobs:
